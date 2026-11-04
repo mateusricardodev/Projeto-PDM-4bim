@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conversor de Temperatura</string>
+    <string name="titulo">Conversor de Temperatura</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="de">De</string>
+    <string name="para">Para</string>
+    <string name="inverter">Inverter unidades</string>
+    <string name="limpar">Limpar</string>
+    <string name="trocar_sinal">Trocar o sinal</string>
+    <string name="resultado">Resultado</string>
+    <string name="historico">Histórico</string>
+    <string name="limpar_historico">Limpar histórico</string>
+    <string name="sem_historico">Nenhuma conversão ainda.</string>
+    <string name="dica_inicial">Digite uma temperatura para ver a conversão.</string>
+    <string name="erro_numero">Digite um número válido. Use vírgula ou ponto.</string>
+    <string name="erro_zero_absoluto">Abaixo do zero absoluto (%1$s %2$s).</string>
+</resources>

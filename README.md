@@ -13,7 +13,7 @@ com seu próprio Gradle. Abra a pasta do projeto no Android Studio, não a raiz.
 |:-:|---------|-------|:------:|
 | 01 | 💼 Cartão de Visita Digital | [`01-cartao-visita/`](01-cartao-visita/) | ✅ Concluído |
 | 02 | 🧮 Calculadora Inteligente | `02-calculadora/` | ⬜ |
-| 03 | 🌡️ Conversor de Temperatura | `03-conversor/` | ⬜ |
+| 03 | 🌡️ Conversor de Temperatura | [`03-conversor-temperatura/`](03-conversor-temperatura/) | ✅ Concluído |
 | 04 | 🧠 Quiz Interativo | `04-quiz/` | ⬜ |
 | 05 | ⏱️ Temporizador Pomodoro | `05-pomodoro/` | ⬜ |
 | 06 | ✅ Gerenciador de Tarefas | `06-tarefas/` | ⬜ |
