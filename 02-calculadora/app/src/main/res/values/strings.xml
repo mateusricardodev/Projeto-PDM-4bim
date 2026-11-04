@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="historico">Histórico</string>
+    <string name="limpar">Limpar</string>
+    <string name="sem_historico">Nenhum cálculo ainda.</string>
+    <string name="erro_divisao_zero">Não é possível dividir por zero</string>
+    <string name="erro_raiz_negativa">Raiz de número negativo</string>
+</resources>

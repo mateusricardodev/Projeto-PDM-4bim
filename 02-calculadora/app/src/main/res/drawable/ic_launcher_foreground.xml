@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icone do app: uma calculadora com visor e teclas. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+
+    <!-- Corpo -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M34,26 L74,26 A4,4 0 0,1 78,30 L78,78 A4,4 0 0,1 74,82 L34,82 A4,4 0 0,1 30,78 L30,30 A4,4 0 0,1 34,26 Z" />
+    <!-- Visor -->
+    <path android:fillColor="#5B3A8E" android:pathData="M36,32 L72,32 L72,44 L36,44 Z" />
+    <!-- Teclas -->
+    <path android:fillColor="#5B3A8E" android:pathData="M37,50 L46,50 L46,58 L37,58 Z" />
+    <path android:fillColor="#5B3A8E" android:pathData="M50,50 L59,50 L59,58 L50,58 Z" />
+    <path android:fillColor="#A8571A" android:pathData="M63,50 L71,50 L71,58 L63,58 Z" />
+    <path android:fillColor="#5B3A8E" android:pathData="M37,62 L46,62 L46,70 L37,70 Z" />
+    <path android:fillColor="#5B3A8E" android:pathData="M50,62 L59,62 L59,70 L50,70 Z" />
+    <path android:fillColor="#A8571A" android:pathData="M63,62 L71,62 L71,76 L63,76 Z" />
+    <path android:fillColor="#5B3A8E" android:pathData="M37,74 L59,74 L59,76 L37,76 Z" />
+</vector>
