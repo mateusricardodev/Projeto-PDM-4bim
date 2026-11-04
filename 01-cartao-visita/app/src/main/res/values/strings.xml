@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cartão de Visita</string>
+    <string name="encontre_me">Encontre-me em</string>
+    <string name="compartilhar">Compartilhar cartão</string>
+    <string name="tema_claro">Tema claro</string>
+    <string name="tema_escuro">Tema escuro</string>
+    <string name="erro_email">Nenhum aplicativo de e-mail encontrado.</string>
+    <string name="erro_telefone">Este dispositivo não possui discador.</string>
+    <string name="erro_link">Nenhum navegador encontrado para abrir o link.</string>
+    <string name="erro_compartilhar">Não foi possível compartilhar o cartão.</string>
+</resources>
