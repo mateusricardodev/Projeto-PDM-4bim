@@ -83,7 +83,7 @@ fun CartaoScreen(
                         modifier = Modifier.padding(24.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        Avatar(nome = perfil.nome, tamanho = 140.dp)
+                        Avatar(nome = perfil.nome, tamanho = 140.dp, foto = R.drawable.foto_perfil)
                         Spacer(Modifier.size(24.dp))
                         Column { Identificacao(perfil, centralizado = false) }
                     }
@@ -93,7 +93,7 @@ fun CartaoScreen(
                         modifier = Modifier.padding(24.dp),
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
-                        Avatar(nome = perfil.nome, tamanho = 120.dp)
+                        Avatar(nome = perfil.nome, tamanho = 120.dp, foto = R.drawable.foto_perfil)
                         Spacer(Modifier.height(16.dp))
                         Identificacao(perfil, centralizado = true)
                     }

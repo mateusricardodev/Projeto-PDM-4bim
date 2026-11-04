@@ -27,23 +27,21 @@ data class Perfil(
     val redes: List<RedeSocial>
 )
 
-/**
- * Perfil exibido pelo aplicativo.
- *
- * Troque os valores marcados como exemplo pelos seus dados reais.
- */
+/** Perfil exibido pelo aplicativo. */
 val PERFIL_PADRAO = Perfil(
     nome = "Mateus Ricardo",
     profissao = "Desenvolvedor Android",
     descricao = "Estudante de Programacao para Dispositivos Moveis. " +
         "Trabalho com Kotlin e Jetpack Compose na construcao de aplicativos nativos.",
-    email = "seu.email@exemplo.com",       // <- troque pelo seu e-mail
-    telefone = "43999998888",              // <- troque pelo seu telefone (so digitos)
+    email = "mateus.ricardo761919@gmail.com",
+    // Sem telefone cadastrado: a linha simplesmente nao aparece no cartao.
+    // Para exibi-la, basta preencher com DDD mais o numero, so digitos.
+    telefone = "",
     cidade = "Parana, Brasil",
     redes = listOf(
         RedeSocial("GitHub", "@mateusricardodev", "https://github.com/mateusricardodev"),
-        RedeSocial("LinkedIn", "seu-perfil", "https://www.linkedin.com/in/seu-perfil"),
-        RedeSocial("Instagram", "@seu_usuario", "https://instagram.com/seu_usuario")
+        RedeSocial("LinkedIn", "mateus-ricardo", "https://www.linkedin.com/in/mateus-ricardo"),
+        RedeSocial("Instagram", "@mateusricardo23", "https://www.instagram.com/mateusricardo23/")
     )
 )
 

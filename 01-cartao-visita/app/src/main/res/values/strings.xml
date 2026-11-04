@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Cartão de Visita</string>
+    <string name="foto_de">Foto de %1$s</string>
     <string name="encontre_me">Encontre-me em</string>
     <string name="compartilhar">Compartilhar cartão</string>
     <string name="tema_claro">Tema claro</string>

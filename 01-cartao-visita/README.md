@@ -7,7 +7,7 @@ primeiro projeto da trilha do 4º bimestre.
 
 | Requisito | Como foi atendido |
 |---|---|
-| Exibir fotografia ou avatar | Avatar circular com as iniciais do nome, desenhado pelo Compose com degradê — sem depender de arquivo de imagem |
+| Exibir fotografia ou avatar | Fotografia recortada em círculo (`ContentScale.Crop`). Sem foto, o app desenha as iniciais do nome sobre um degradê |
 | Mostrar nome completo | `Text` com estilo `displaySmall` da tipografia personalizada |
 | Apresentar profissão e descrição | Profissão em destaque na cor primária e descrição abaixo |
 | Exibir e-mail e telefone | Linhas com ícone, clicáveis: abrem o app de e-mail e o discador |
@@ -55,15 +55,20 @@ val PERFIL_PADRAO = Perfil(
     nome = "Mateus Ricardo",
     profissao = "Desenvolvedor Android",
     descricao = "...",
-    email = "seu.email@exemplo.com",   // <- troque
-    telefone = "43999998888",          // <- troque (só dígitos)
+    email = "mateus.ricardo761919@gmail.com",
+    telefone = "",                      // vazio: a linha não aparece
     cidade = "Parana, Brasil",
-    redes = listOf(/* ... */)
+    redes = listOf(/* GitHub, LinkedIn, Instagram */)
 )
 ```
 
-> O e-mail, o telefone e os perfis de LinkedIn e Instagram estão com **valores de
-> exemplo**. Substitua pelos seus antes de apresentar o projeto.
+A fotografia fica em `res/drawable-nodpi/foto_perfil.jpg`, recortada em quadrado
+e exibida com `ContentScale.Crop` dentro de um círculo. Para trocar, basta
+substituir o arquivo mantendo o nome.
+
+Sem telefone cadastrado a linha simplesmente não é exibida — a mesma regra vale
+para um e-mail mal formado. Para mostrar o telefone, preencha o campo com DDD
+mais o número, só dígitos (ex.: `"43999998888"`).
 
 ## 🧪 Testes
 
